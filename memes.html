@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Memes Page</title>
+	<link rel="stylesheet" href="HomePage.css">
+
+</head>
+
+
+
+<body>
+
+
+	<p id='welcome'>Welcome <span id='name'> </span> </p>
+	<p id='welcome'>Our interests match <span id='persent'></span> %, here are some funny memes</p>
+
+	<p id="photo-frame">
+
+		<img id="family-picture" src="https://pbs.twimg.com/media/ET0e2IwXYAAySPK?format=jpg&name=900x900">
+		<img id="family-picture"  src="/Users/abeeralessa/Desktop/HCI/meme1.jpg">
+		<img id="family-picture"  src="/Users/abeeralessa/Desktop/HCI/meme2.jpg">
+		<img id="family-picture" src="https://pbs.twimg.com/media/EVBE3bRWoAEDZVK?format=jpg&name=900x900">
+		<img id="family-picture" src="https://pbs.twimg.com/media/ETPE7FQXkAI3AYz?format=jpg&name=900x900">
+
+
+		<img id="family-picture" src="https://pbs.twimg.com/media/EUwUsNTXQAASicf?format=jpg&name=large">
+	
+		
+	</p>
+
+	<script>
+		
+		
+		var persent = 0;
+		
+		document.getElementById('name').innerHTML = localStorage.getItem('name');
+
+
+
+		persent += Number(localStorage.getItem('films'));
+
+		persent += Number(localStorage.getItem('books'));
+
+		persent += Number(localStorage.getItem('sports'));
+
+
+		persent += Number(localStorage.getItem('music'));
+
+
+
+		document.getElementById('persent').innerHTML = persent;
+
+	</script>
+
+
+</body>

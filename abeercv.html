@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Second Page</title>
+<link rel="stylesheet" href="HomePage.css">
+
+
+</head>
+
+<body>
+
+	<p id='welcome'>Welcome <span id='name'> </span> </p>
+	
+	<p id='welcome'>Our interests match <span id='persent'></span> %</p>
+
+
+	<script>
+		var persent = 0 ; 
+		
+		
+		if(persent != 0 ) {
+ persent = 0;
+}
+		document.getElementById('name').innerHTML = localStorage.getItem('name');
+		
+		
+		
+		persent +=  Number(localStorage.getItem('films'));
+
+		persent +=  Number(localStorage.getItem('books')); 
+		
+		persent +=  Number(localStorage.getItem('sports')); 
+		
+		
+		persent +=  Number(localStorage.getItem('music')); 
+		
+		
+		
+		document.getElementById('persent').innerHTML = persent;
+
+	</script>
+
+	<p>You can find my CV <a href="file:///Users/abeeralessa/Desktop/HCI/cv.html">here</a></p>
+
+
+	<script>
+
+
+	</script>
+
+
+
+
+
+</body>

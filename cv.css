@@ -1,0 +1,55 @@
+html {
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	color: #DAECED
+;
+}
+
+p,
+li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+
+}
+
+
+html {
+	background-color:#d9b6a3; 
+}
+
+body {
+	width: 600px;
+	margin: 0 auto;
+	background-color:  #fae194
+;
+	padding: 0 20px 20px 20px;
+	border: 5px solid #555555;
+}
+
+
+body {
+	font-family: "Comic Sans MS";
+}
+
+
+
+#family-picture {
+	
+	
+display: block;
+	  height: auto;
+	width: 580px;
+	border: 5px solid #AEA8A8;
+   margin-top:20px; /*to have the space above the image*/
+   margin-bottom:20px; /*to have the space under the image*/
+
+
+
+}

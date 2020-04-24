@@ -1,0 +1,102 @@
+html {
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	color: #76A08A
+;
+}
+
+p,
+li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+
+}
+
+
+html {
+	background-color:#d9b6a3; 
+}
+
+body {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #fae194
+;
+	padding: 0 20px 20px 20px;
+	border: 5px solid #555555;
+}
+
+
+body {
+	font-family: "Comic Sans MS";
+}
+
+
+#second-page-buttons {
+
+	color: #494949 !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #ffffff;
+	padding: 20px;
+	border: 4px solid #494949 !important;
+	display: inline-block;
+	transition: all 0.4s ease 0s;
+	align-content: center;
+	display: inline-block;
+	max-width: 300px;
+	height: auto;
+	width: 150px;
+	margin:0 auto;
+    display:block;
+
+
+}
+
+#family-picture {
+
+	display: block;
+	  height: auto;
+	width: 580px;
+	border: 5px solid #AEA8A8;
+   margin-top:20px; /*to have the space above the image*/
+   margin-bottom:20px; /*to have the space under the image*/
+
+
+}
+
+
+#welcome ,#petname {
+  color: #76A08A
+;
+font-size: 30px;
+
+}
+
+
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+
+font-family: "Comic Sans MS";
+ 
+  margin-bottom: 12px;
+  cursor: pointer;
+	 padding-left:250px;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+

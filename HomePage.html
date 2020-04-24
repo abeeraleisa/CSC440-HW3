@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Oue Website</title>
+	<link rel="stylesheet" href="HomePage.css">
+
+</head>
+
+<body>
+
+
+
+	<!--My photo-->
+	<h1>Welcome to our website!</h1>
+	<p id="photo-frame">
+
+		<img id="family-picture" src="/Users/abeeralessa/Desktop/HCI/4d9416a1-37c3-4822-8f51-64ffb631bb79.JPG">
+	</p>
+
+	<div>
+		<p id = "full-name"> <b>Full Name : </b></p>
+		<input id="name" type="text" placeholder="Enter your name"> <br>
+		<p>Select your interests :</p>
+		<label class="container">Films
+			<input type="checkbox" id="Films">
+			<span class="checkmark"></span>
+		</label>
+
+		<label class="container">Books
+			<input type="checkbox" id="Books">
+			<span class="checkmark"></span>
+		</label>
+
+		<label class="container">Sports
+			<input type="checkbox" id="Sports">
+			<span class="checkmark"></span>
+		</label>
+
+		<label class="container">Music
+			<input type="checkbox" id="Music">
+			<span class="checkmark"></span>
+		</label>
+
+	</div>
+	<p> what would you like to see?</p>
+	<form action="file:///Users/abeeralessa/Desktop/HCI/memes.html" method="post">
+
+
+		<label class="container">memes!
+			<input type="checkbox" id="meme" name="where">
+			<span class="checkmark"></span>
+		</label>
+
+	</form>
+
+	<form>
+
+		<label class="container">Abeer's CV!
+			<input type="checkbox" id="abeer" name="where">
+			<span class="checkmark"></span>
+		</label>
+
+
+	</form>
+	<form>
+
+		<label class="container">Elaf's CV!
+			<input type="checkbox" id="elaf" name="where">
+			<span class="checkmark"></span>
+		</label>
+
+	</form>
+
+	<input align="center" rel="nofollow noopener" id="second-page-buttons" type="button" value="submet" onclick="submit();
+">
+
+
+
+	<script>
+		function submit() {
+
+
+			const name = document.querySelector('#name').value;
+			//const gender = document.querySelector('input[name="gender"]:checked').value;
+
+			localStorage.setItem('name', name);
+			//localStorage.setItem('gender', gender);
+
+
+			if (document.getElementById('meme').checked) {
+
+				window.location = 'file:///Users/abeeralessa/Desktop/HCI/memes.html';
+
+
+			} else if (document.getElementById('abeer').checked) {
+				window.location = 'file:///Users/abeeralessa/Desktop/HCI/abeercv.html';
+
+			} else {
+
+				window.location = 'file:///Users/abeeralessa/Desktop/HCI/elafcv.html';
+			}
+
+
+
+
+			if (document.getElementById('Films').checked) {
+
+
+				localStorage.setItem('films', 25);
+
+			} else {
+				localStorage.setItem('films', 0);
+
+
+
+			}
+
+			if (document.getElementById('Books').checked) {
+
+				localStorage.setItem('books', 25);
+			} else {
+
+
+				localStorage.setItem('books', 0);
+
+
+			}
+
+
+			if (document.getElementById('Sports').checked) {
+
+				localStorage.setItem('sports', 25);
+			} else {
+
+
+				localStorage.setItem('sports', 0);
+
+
+			}
+			
+			
+
+			if (document.getElementById('Music').checked) {
+
+				localStorage.setItem('music', 25);
+			} else {
+
+
+				localStorage.setItem('music', 0);
+
+				}
+
+
+
+
+
+			}
+
+	</script>
+
+
+
+
+</body>
+
+</html>
