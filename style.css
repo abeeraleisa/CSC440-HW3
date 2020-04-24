@@ -1,0 +1,116 @@
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #7eac94;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+
+html {
+  background-color:#f4d3d3
+;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color:#FDDDA4;
+  padding: 0 20px 20px 20px;
+  border: 5px solid #555555;
+}
+
+
+body {
+	font-family: "Comic Sans MS";
+}
+
+.section {
+font-family: arial;
+background-color:#6B5B95
+color:white;
+
+}
+.section h2 {
+	
+	font-family: Georgia;
+	color:#625f5c;
+	font-size: 30px;
+}
+
+.section a:link {
+	color:rgb(100,0,0) ;
+}
+
+#courses a:hover {
+	color:#EFC050;
+}
+#courses a:active {
+
+	color: #DFCFBE
+}
+		/* span tag selector: color all span tags red */
+span {
+	color:#5B5EA6;
+	font-size: 15px;
+}
+
+		/* Put the image on the right */
+#photo { 
+float: right; 
+height: 300px;
+width: 250px;
+
+}
+
+#info{
+font-size: 13px;
+color: #555555
+
+}
+		/* Table Style! */
+		/* Put borders around the cells */
+th, td {
+	
+border: solid 1px #555555; 
+height: 50px;
+width: 300px;
+}
+		/* Collapse or 'merge' the borders into each other*/
+table { border-collapse: collapse; }
+
+		/* Color every other row (tr) light grey */
+tr:nth-child(even) {
+	background:#e6e3c5;
+	tab-size: 100px;
+	font-size: 15px;
+	text-align: center;
+
+}
+tr:nth-child(odd) {
+	background:#e6e3c5;
+	tab-size: 100px;
+	font-size: 15px;
+	text-align: center;
+
+}
+
+		/* Align and style the "For Credit" and "Listener" cells */
+		/* Align and style the "For Credit" and "Listener" cells */
+td.enrollheader {
+	background-color:white;
+	text-align:center;
+	font-weight:bold;
+
+}
+
